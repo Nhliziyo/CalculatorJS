@@ -5,23 +5,69 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="rows2">
-            <button class = "buttons Numbers"></button>
-            <button class = "buttons Numbers"></button>
-            <button class = "buttons Numbers"></button>
-            <button class = "buttons Numbers"></button>
-            <button class = "buttons Numbers"></button>
-            <button class = "buttons Numbers"></button>
-            <button class = "buttons Numbers"></button>
-            <button class = "buttons Numbers"></button>
-            <button class = "buttons Numbers"></button>
-            <button class = "buttons Numbers"></button>
-            <button class = "buttons Numbers"></button>
-            <button class = "buttons Numbers"></button>
-            <button class = "buttons Numbers"></button>
-            <button class = "buttons Numbers"></button>
-            <button class = "buttons Numbers"></button>
-            <button class = "buttons Numbers"></button>
+        <div class="input"><input type="text" class="display"></div>
+        <div class="button-holder">
+            <button class="buttons clear" onclick="
+                let text = element.innerText;
+                output();
+            ">C</button>
+            <button class="buttons Numbers" onclick="
+            output()
+            ">()</button>
+            <button class="buttons Numbers" onclick="
+                output()
+            ">%</button>
+            <button class="buttons operator" onclick="
+                output()
+            ">/</button>
+            <button class="buttons Numbers" onclick="
+            output()
+            ">7</button>
+            <button class="buttons Numbers" onclick="
+            output()
+            ">8</button>
+            <button class="buttons Numbers" onclick="
+            output()
+            ">9</button>
+            <button class="buttons operator" onclick="
+            output()
+            ">x</button>
+            <button class="buttons Numbers" onclick="
+            output()
+            ">4</button>
+            <button class="buttons Numbers" onclick="
+            output()
+            ">5</button>
+            <button class="buttons Numbers" onclick="
+            output()
+            ">6</button>
+            <button class="buttons operator" onclick="
+            output()
+            ">-</button>
+            <button class="buttons Numbers" onclick="
+            output()
+            ">1</button>
+            <button class="buttons Numbers" onclick="
+            output()
+            ">2</button>
+            <button class="buttons Numbers" onclick="
+            output()
+            ">3</button>
+            <button class="buttons operator" onclick="
+            output()
+            ">+</button>
+            <button class="buttons operator" onclick="
+            output()
+            ">(-)</button>
+            <button class="buttons Numbers" onclick="
+            output()
+            ">0</button>
+            <button class="buttons decimal" onclick="
+            output()
+            ">.</button>
+            <button class="buttons equals" onclick="
+            output()
+            ">=</button>
         </div>
 
 
