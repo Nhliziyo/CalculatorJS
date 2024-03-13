@@ -5,67 +5,70 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="display"></div>
-        <div class="button-holder">
-            <button class="buttons clear" onclick="
-                output();">C</button>
-            <button class="buttons Numbers" onclick="
-            output()
-            ">()</button>
-            <button class="buttons Numbers" onclick="
-                output()
-            ">%</button>
-            <button class="buttons operator" onclick="
-                output()
-            ">/</button>
-            <button class="buttons Numbers" onclick="
-            output()
-            ">7</button>
-            <button class="buttons Numbers" onclick="
-            output()
-            ">8</button>
-            <button class="buttons Numbers" onclick="
-            output()
-            ">9</button>
-            <button class="buttons operator" onclick="
-            output()
-            ">x</button>
-            <button class="buttons Numbers" onclick="
-            output()
-            ">4</button>
-            <button class="buttons Numbers" onclick="
-            output()
-            ">5</button>
-            <button class="buttons Numbers" onclick="
-            output()
-            ">6</button>
-            <button class="buttons operator" onclick="
-            output()
-            ">-</button>
-            <button class="buttons Numbers" onclick="
-            output()
-            ">1</button>
-            <button class="buttons Numbers" onclick="
-            output()
-            ">2</button>
-            <button class="buttons Numbers" onclick="
-            output()
-            ">3</button>
-            <button class="buttons operator" onclick="
-            output()
-            ">+</button>
-            <button class="buttons operator" onclick="
-            output()
-            ">(-)</button>
-            <button class="buttons Numbers" onclick="
-            output()
-            ">0</button>
-            <button class="buttons decimal" onclick="
-            output()
-            ">.</button>
-            <button class="buttons equals" onclick="
-            output()
-            ">=</button>
+        <div class="div-holder">
+            <div class="display"></div>
+            <div class="button-holder">
+                <button class="buttons clear" onclick="
+                    output(this)
+                ">C</button>
+                <button class="buttons Numbers" onclick="
+                    brackets()
+                ">()</button>
+                <button class="buttons Numbers" onclick="
+                    output(this)
+                ">%</button>
+                <button class="buttons operator" onclick="
+                    output(this)
+                ">/</button>
+                <button class="buttons Numbers" onclick="
+                    output(this)
+                ">7</button>
+                <button class="buttons Numbers" onclick="
+                    output(this)
+                ">8</button>
+                <button class="buttons Numbers" onclick="
+                    output(this)
+                ">9</button>
+                <button class="buttons operator" onclick="
+                    output(this)
+                ">x</button>
+                <button class="buttons Numbers" onclick="
+                    output(this)
+                ">4</button>
+                <button class="buttons Numbers" onclick="
+                    output(this)
+                ">5</button>
+                <button class="buttons Numbers" onclick="
+                    output(this)
+                ">6</button>
+                <button class="buttons operator" onclick="
+                    output(this)
+                ">-</button>
+                <button class="buttons Numbers" onclick="
+                    output(this)
+                ">1</button>
+                <button class="buttons Numbers" onclick="
+                    output(this)
+                ">2</button>
+                <button class="buttons Numbers" onclick="
+                    output(this)
+                ">3</button>
+                <button class="buttons operator" onclick="
+                    output(this)
+                ">+</button>
+                <button class="buttons operator" onclick="
+                    output(this)
+                ">(-)</button>
+                <button class="buttons Numbers" onclick="
+                    output(this)
+                ">0</button>
+                <button class="buttons decimal" onclick="
+                    output(this)
+                ">.</button>
+                <button class="buttons equals" onclick="
+                    equalTo()
+                ">=</button>
+            </div>
         </div>
 
 
