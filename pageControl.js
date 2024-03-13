@@ -1,6 +1,6 @@
 //use count var for brackets odd "nums = ( " and "even nums = )"
-function output(txt){
-    let text = element.innerText;
-    document.querySelector(".display").value += txt;
+function output(){
+    const text = element.textContent;
+    document.querySelector(".display").innerHTML += text;
     //if (element.class === "Number")
 }

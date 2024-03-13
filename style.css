@@ -14,12 +14,13 @@
     margin: 5px;
     border: none;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .display{
-    padding: 30px;
-    padding-right: 120px;
+    font-size: 60px;
     position: absolute;
     top: 100px;
-    left: 85px;
+    right: 280px;
+    text-align: right;
 }
